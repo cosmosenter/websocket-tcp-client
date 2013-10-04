@@ -1,0 +1,24 @@
+{
+  "name": "websocket-tcp-client",
+  "version": "0.1.0",
+  "description": "A js-git tcp interface implementation that uses a server-side websocket to tcp proxy",
+  "main": "web-tcp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/websocket-tcp-client.git"
+  },
+  "keywords": [
+    "websocket",
+    "proxy",
+    "tcp",
+    "js-git"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/websocket-tcp-client/issues"
+  }
+}
