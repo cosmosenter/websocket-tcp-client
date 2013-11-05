@@ -1,6 +1,6 @@
 {
   "name": "websocket-tcp-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A js-git tcp interface implementation that uses a server-side websocket to tcp proxy",
   "main": "web-tcp.js",
   "scripts": {

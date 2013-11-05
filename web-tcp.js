@@ -29,6 +29,7 @@ function wrapSocket(ws) {
 
   ws.onmessage = function (evt) {
     var data = evt.data;
+    if (!data) return;
     if (typeof data === "string") {
       queue.push([new Error(data)]);
     }
